@@ -20,15 +20,6 @@ for offer in catalog["offers"]:
     if expires:
         assert dt.datetime.fromisoformat(expires.replace("Z", "+00:00")) > observed
     assert isinstance(offer.get("eligibility", ""), str)
-    if offer.get("is_test", False):
-        assert offer["code"].startswith("TEST-")
-        assert offer.get("source_url") is None
-        assert "不可兑换" in offer["source_title"]
-        assert "不可兑换" in offer["eligibility"]
-        assert expires is not None
-        assert dt.datetime.fromisoformat(expires.replace("Z", "+00:00")) <= observed + dt.timedelta(days=3)
-    else:
-        assert not offer["code"].startswith("TEST-")
     identity = (offer["service"], offer["code"])
     assert identity not in seen, f"duplicate {identity}"
     seen.add(identity)

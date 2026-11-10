@@ -1,39 +1,5 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T03:38:34Z",
-  "offers": [
-    {
-      "service": "uberRide",
-      "code": "TEST-UBER-RIDE",
-      "source": "dots_app",
-      "source_title": "TEST 测试占位数据；非点点搜索结果，不可兑换",
-      "source_url": null,
-      "observed_at": "2026-11-10T03:38:34Z",
-      "expires_at": "2026-11-12T03:38:34Z",
-      "eligibility": "仅供通知同步测试，不可兑换。",
-      "is_test": true
-    },
-    {
-      "service": "uberEats",
-      "code": "TEST-UBER-EATS",
-      "source": "dots_app",
-      "source_title": "TEST 测试占位数据；非点点搜索结果，不可兑换",
-      "source_url": null,
-      "observed_at": "2026-11-10T03:38:34Z",
-      "expires_at": "2026-11-12T03:38:34Z",
-      "eligibility": "仅供通知同步测试，不可兑换。",
-      "is_test": true
-    },
-    {
-      "service": "waymo",
-      "code": "TEST-WAYMO",
-      "source": "dots_app",
-      "source_title": "TEST 测试占位数据；非点点搜索结果，不可兑换",
-      "source_url": null,
-      "observed_at": "2026-11-10T03:38:34Z",
-      "expires_at": "2026-11-12T03:38:34Z",
-      "eligibility": "仅供通知同步测试，不可兑换。",
-      "is_test": true
-    }
-  ]
+  "updated_at": "2026-11-10T03:04:06Z",
+  "offers": []
 }
